@@ -1,0 +1,28 @@
+# definir nuestro rango de datos
+X = 1:100
+# la variable y va hacer el valor de x por 2
+Y = X * 2
+tablaDatos=data.frame(
+    X=X,
+    Y=Y
+)
+#lo imprimimos
+tablaDatos
+
+miClase = list(
+  datos = tablaDatos,
+  sumaX = sum(X),
+  sumaY = sum(Y)
+)
+
+#imprimimos nuestra lista completa
+mi clase
+
+miClase$datos
+miClase$sumaX
+miClase$sumaY
+
+nrow(tablaDatos)
+ncol(tablaDatos)
+tablaDatos[1:5, ]
+tablaDatos[95:100, ]
